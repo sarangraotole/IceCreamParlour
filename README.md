@@ -1,2 +1,0 @@
-# IceCreamParlour
-Created with CodeSandbox
