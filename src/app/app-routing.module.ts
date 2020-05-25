@@ -6,8 +6,8 @@ import { RegisterComponent } from "./register/register.component";
 const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "login", component: LoginComponent },
-  { path: "", redirectTo: "/register", pathMatch: "full" }, // redirect to `regsiter`
-  { path: "**", component: RegisterComponent }
+  { path: "", redirectTo: "/login", pathMatch: "full" }, // redirect to `regsiter`
+  { path: "**", component: LoginComponent }
 ]; // sets up routes constant where you define your routes
 
 // configures NgModule imports and exports
