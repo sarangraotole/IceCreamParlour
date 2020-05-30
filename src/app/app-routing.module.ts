@@ -6,7 +6,7 @@ import { RegisterComponent } from "./register/register.component";
 const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "login", component: LoginComponent },
-  { path: "", redirectTo: "/login", pathMatch: "full" }, // redirect to `regsiter`
+  { path: "", redirectTo: "/login", pathMatch: "full" },
   { path: "**", component: LoginComponent }
 ]; // sets up routes constant where you define your routes
 
